@@ -1,0 +1,56 @@
+.tarea-container {
+  width: min(90%, 500px);
+  min-height: 65px;
+  background-color: #2a3f7e;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+/* Colores para las tareas */
+/* Selecciona cada elemento que sea el primero en un grupo de 3 */
+.tarea-container:nth-child(3n + 1) {
+  background-color: #2a3f7e;
+}
+
+/* Selecciona cada elemento que sea el segundo en un grupo de 3  */
+.tarea-container:nth-child(3n + 2) {
+  background-color: #2e479c;
+}
+
+/* Selecciona cada elemento que sea el tercero en un grupo de 3 */
+.tarea-container:nth-child(3n + 3) {
+  background-color: #3357c2;
+}
+
+/* Tarea completada */
+.tarea-container.completada {
+  background-color: #5a01a7;
+  text-decoration: line-through;
+}
+
+.tarea-texto {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  overflow-wrap: anywhere;
+}
+
+.tarea-icono {
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+  vertical-align: middle;
+}
+
+.tarea-icono:hover{
+  transition: fill .2s ease-in-out;
+  fill: rgb(208, 7, 7);
+}

@@ -1,0 +1,30 @@
+.tarea-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.tarea-input {
+  width: min(100%, 350px);
+  font-size: 18px;
+  background-color: white;
+  padding: 14px 32px 14px 16px;
+  border-radius: 6px;
+  border: 2px solid #9c9c9c;
+  outline: none;
+}
+
+.tarea-boton {
+  padding: 16px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  outline: none;
+  background-color: #057530;
+  color: #ecebeb;
+  text-transform: capitalize;
+}

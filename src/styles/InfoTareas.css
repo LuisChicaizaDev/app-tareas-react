@@ -1,0 +1,17 @@
+.info-tareas {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 8px;
+  background: aliceblue;
+  border-radius: 8px;
+  color: #2c2c2c;
+  margin: 16px 0;
+  text-align: center;
+}
+
+.info-tareas h4 {
+  color: #2a3f7e;
+}
