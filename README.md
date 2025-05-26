@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# 📝 App de Tareas con React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Es un proyecto más del [curso gratuito de React](https://www.youtube.com/watch?v=6Jfk8ic3KVk) en el canal de YouTube de [freeCodeCamp en Español](https://www.freecodecamp.org/espanol/). 
 
-## Available Scripts
+Se desarrolló una aplicación para gestionar tareas personales con persistencia de datos. Útil para listar tareas pendientes por realizar y tener un mejor control. Tiene una interfaz intuitiva y atractiva.
 
-In the project directory, you can run:
 
-### `npm start`
+## 📄 Características
+En la aplicación añadí mejoras tomando algunos de los **retos propuestos en el curso**. Las siguientes características las cuales añadí de manera personal para mejorar la aplicación son:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ **Persistencia de datos:** Las tareas se guardan en localStorage, es decir, no se pierden al recargar la página.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔️ **Contadores dinámicos:** Muestra el total de tareas y el total de tareas completadas en tiempo real.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tecnologías
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-### `npm run build`
+### Dependencias clave  
+✔️ ![uuid](https://img.shields.io/badge/uuid-v11.1.0-blue): Para generación de IDs únicos para las tareas  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔️ ![react-icons](https://img.shields.io/badge/react__icons-v5.5.0-purple): Para insertar iconos  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📥 Instalación
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-### `npm run eject`
+1.  Clona el repositorio.
+```sh
+git clone https://github.com/LuisChicaizaDev/app-tareas-react.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Instala las dependencias:  
+ ```sh
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicia la aplicación: 
+ ```sh
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+La aplicación se abrirá automáticamente en el navegador configurado por defecto y se ejecutará en `localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 🎥 Demo
+En el video de demostración se puede observar como:  
+1. Agregar tareas ("Completar el curso de React")  
+2. Marcar tareas como completadas ✔️
+3. Agreagar una tarea desde otra pestaña
+4. Recargar para **probar persistencia en localStorage**
+5.  Eliminar una tarea 🗑️
+6.  Visualizar como se **actualizan dinámicamente** el **número de tareas por completar** y las **completadas**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://github.com/user-attachments/assets/dd1e8195-f6a6-40bd-8408-bb4ecff4b006
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 📚 Aprendizajes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✔️ Manejo de estado en React (useState).
 
-### Making a Progressive Web App
+✔️ Componentes reutilizables (FormTarea, Tarea, InfoTareas).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✔️ Métodos de arrays (filter, map) para manipular tareas.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
