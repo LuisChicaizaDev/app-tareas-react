@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Form.css';
 import { v4 as uuidv4 } from 'uuid'; // Paquete para generar id unicos
-
+import { AiFillPlusCircle } from "react-icons/ai";
 
 /* Tomamos los props SIN sintaxis de desestructuración */
 function Form(props) {
@@ -41,6 +41,7 @@ function Form(props) {
                 onChange={manejarCambio}
             />
             <button className='tarea-boton'>
+                <AiFillPlusCircle className='tarea-boton-icono' />
                 Agregar Tarea
             </button>
         </form>

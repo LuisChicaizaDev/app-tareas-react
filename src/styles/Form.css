@@ -17,6 +17,8 @@
 }
 
 .tarea-boton {
+  display: flex;
+  gap: 6px;
   padding: 16px;
   font-size: 18px;
   font-family: Roboto, sans-serif;
@@ -27,4 +29,14 @@
   background-color: #057530;
   color: #ecebeb;
   text-transform: capitalize;
+}
+
+.tarea-boton:hover {
+  transition: background-color 0.3s ease-in-out;
+  background-color: #09933e;
+}
+
+.tarea-boton-icono {
+  width: 20px;
+  height: 20px;
 }
